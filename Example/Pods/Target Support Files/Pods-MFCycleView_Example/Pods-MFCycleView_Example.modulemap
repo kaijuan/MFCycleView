@@ -1,0 +1,6 @@
+framework module Pods_MFCycleView_Example {
+  umbrella header "Pods-MFCycleView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

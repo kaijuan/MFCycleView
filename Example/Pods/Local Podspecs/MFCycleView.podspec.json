@@ -1,0 +1,22 @@
+{
+  "name": "MFCycleView",
+  "version": "0.1.0",
+  "summary": "A short description of MFCycleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/XiaoDuo/MFCycleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "XiaoDuo": "1165004013@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/XiaoDuo/MFCycleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MFCycleView/Classes/**/*"
+}

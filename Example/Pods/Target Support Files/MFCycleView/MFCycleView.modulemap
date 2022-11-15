@@ -1,0 +1,6 @@
+framework module MFCycleView {
+  umbrella header "MFCycleView-umbrella.h"
+
+  export *
+  module * { export * }
+}
