@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MFCycleView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MFCycleView.'
+  s.version          = '0.0.1'
+  s.summary          = '常用循环滚动工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    这是一个常用的循环滚动工具，可上下或左右滚动，常用在banner上
                        DESC
 
-  s.homepage         = 'https://github.com/XiaoDuo/MFCycleView'
+  s.homepage         = 'https://github.com/kaijuan/MFCycleView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'XiaoDuo' => '1165004013@qq.com' }
-  s.source           = { :git => 'https://github.com/XiaoDuo/MFCycleView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kaijuan/MFCycleView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
