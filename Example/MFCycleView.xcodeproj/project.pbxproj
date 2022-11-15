@@ -22,6 +22,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		62B81DA229233D75009A6E59 /* MFMyCyclePagerCell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B81D9C29233D74009A6E59 /* MFMyCyclePagerCell1.m */; };
+		62B81DA329233D75009A6E59 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DA029233D74009A6E59 /* FirstViewController.m */; };
+		62B81DA429233D75009A6E59 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62B81DA129233D75009A6E59 /* SecondViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		62B81D9C29233D74009A6E59 /* MFMyCyclePagerCell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMyCyclePagerCell1.m; sourceTree = "<group>"; };
+		62B81D9D29233D74009A6E59 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		62B81D9E29233D74009A6E59 /* MFMyCyclePagerCell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMyCyclePagerCell1.h; sourceTree = "<group>"; };
+		62B81D9F29233D74009A6E59 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		62B81DA029233D74009A6E59 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		62B81DA129233D75009A6E59 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		68574522A802A03D66472FBC /* Pods_MFCycleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MFCycleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -137,6 +146,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MFViewController.h */,
 				6003F5A6195388D20070C39A /* MFViewController.m */,
+				62B81D9F29233D74009A6E59 /* FirstViewController.h */,
+				62B81DA029233D74009A6E59 /* FirstViewController.m */,
+				62B81D9E29233D74009A6E59 /* MFMyCyclePagerCell1.h */,
+				62B81D9C29233D74009A6E59 /* MFMyCyclePagerCell1.m */,
+				62B81D9D29233D74009A6E59 /* SecondViewController.h */,
+				62B81DA129233D75009A6E59 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -389,7 +404,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62B81DA429233D75009A6E59 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* MFAppDelegate.m in Sources */,
+				62B81DA229233D75009A6E59 /* MFMyCyclePagerCell1.m in Sources */,
+				62B81DA329233D75009A6E59 /* FirstViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* MFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

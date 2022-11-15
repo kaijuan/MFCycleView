@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "MFCyclePagerBaseCell.h"
+#import "MFCyclePagerView.h"
+#import "MFAbstractDotView.h"
+#import "MFDotView.h"
+#import "MFPageControl.h"
 
 FOUNDATION_EXPORT double MFCycleViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char MFCycleViewVersionString[];
